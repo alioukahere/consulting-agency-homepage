@@ -1,0 +1,63 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+/* navbar */
+.navbar.solid {
+    background-color: #FFF;
+    color: #0047AB;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .top-nav {
+    line-height: 40px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.navbar .top-nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .top-nav .container span i {
+    font-size: 14px;
+    margin-right: 7px;
+}
+
+.navbar nav {
+    line-height: 60px;
+}
+
+.navbar nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar nav a.brand {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+}
+
+.navbar nav ul li:not(:last-child) {
+    margin-right: 25px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+}
