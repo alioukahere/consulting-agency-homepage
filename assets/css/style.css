@@ -8,6 +8,10 @@
     columns: #0F0F0F;
 }
 
+body {
+	background-color: #F2F1F1;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1280px;
@@ -31,6 +35,16 @@
 .btn.btn-primary {
 	background-color: #2988DD;
 	color: #FFF;
+}
+
+img.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.section {
+	padding-top: 50px;
+	padding-bottom: 40px;
 }
 
 /* navbar */
@@ -123,4 +137,27 @@
 	font-size: 3.2rem;
 	font-weight: normal;
 	margin-bottom: 30px;
+}
+
+
+/* partners section */
+.partners-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.partners .partner {
+	max-width: 125px;
+	width: 125px;
+	height: 70px;
+	padding: 1rem 2rem;
+	background-color: #FFF;
+	text-align: center;
+	margin: 10px;
+}
+
+.partners .partner img {
+	height: 100%;
+	width: auto;
 }
