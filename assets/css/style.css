@@ -43,8 +43,26 @@ img.responsive {
 }
 
 .section {
-	padding-top: 50px;
-	padding-bottom: 40px;
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+
+.section h2 {
+	text-transform: capitalize;
+	margin-bottom: 50px;
+}
+
+.flex-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-list.center-main-axis {
+	justify-content: center;
+}
+
+.center-align {
+	text-align: center;
 }
 
 /* navbar */
@@ -114,6 +132,7 @@ img.responsive {
 	-webkit-background-size: auto;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 	min-height: 800px;
 	display: flex;
 	align-items: center;
@@ -141,10 +160,9 @@ img.responsive {
 
 
 /* partners section */
-.partners-list {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.partners {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .partners .partner {
@@ -153,11 +171,33 @@ img.responsive {
 	height: 70px;
 	padding: 1rem 2rem;
 	background-color: #FFF;
-	text-align: center;
 	margin: 10px;
 }
 
 .partners .partner img {
 	height: 100%;
 	width: auto;
+}
+
+
+/* services section */
+.services {
+	background-color: #FFF;
+}
+
+.services .service {
+	max-width: 300px;
+	width: 300px;
+	margin: 10px;
+}
+
+.services .service img {
+	width: 170px;
+	margin-bottom: 20px;
+}
+
+.services .service h3 {
+	text-transform: capitalize;
+	font-size: 1.1rem;
+	font-weight: 10;
 }
