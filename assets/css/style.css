@@ -229,3 +229,98 @@ img.responsive {
 .training p {
 	color: #D4D4D4;
 }
+
+
+/* news section */
+.news .flex-list {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.news .article {
+	max-width: 385px;
+	width: 385px;
+	margin: 27px;
+}
+
+.card {
+	background-color: #FFF;
+	padding: 25px;
+}
+
+.card a {
+	text-decoration: none;
+	color: #000;
+}
+
+.card a:hover(:not(.btn)) {
+	text-decoration: underline;
+}
+
+.card a.more {
+	font-weight: bold;
+}
+
+.card h3 {
+	text-transform: capitalize;
+}
+
+.card p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.card.article-card .img-box {
+	height: 220px;
+	width: 385px;
+	margin: -25px;
+	margin-bottom: 25px;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+.card.article-card a.category {
+	color: #ADADAD;
+}
+
+.card.event-card .foot {
+	margin: -25px;
+	margin-top: 25px;
+	background-color: #2988DD;
+	color: #D4D4D4;
+	display: flex;
+	
+	text-align: center;
+}
+
+.card.event-card .foot span {
+	width: 33.333333%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card.event-card .foot span i {
+	display: block;
+	font-size: 1.5rem;
+	margin-bottom: 7px;
+	color: #FFF;
+}
+
+.card.event-card .foot span:not(:last-child) {
+	border-right: 1px solid #FFF;
+}
+
+.card.zoom-card {
+	margin-bottom: 20px;
+}
+
+.card.zoom-card .head {
+	display: flex;
+	align-items: center;
+}
+
+.card.zoom-card .head img {
+	width: 70px;
+	margin-right: 20px;
+}
