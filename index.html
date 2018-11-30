@@ -348,5 +348,20 @@
 			&copy; KAHERE Consulting 2018. All Rights Reserved.
 		</div>
 	</footer>
+
+	<!-- jquery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	
+	<script type="text/javascript">
+		$(window).scroll(function(event) {
+            var scroll = $(window).scrollTop();
+
+            if (scroll > 200) {
+                $(".navbar").addClass('solid');
+            } else {
+                $(".navbar").removeClass('solid');
+            }
+        });
+	</script>
 </body>
 </html>
