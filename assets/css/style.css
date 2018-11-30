@@ -201,3 +201,31 @@ img.responsive {
 	font-size: 1.1rem;
 	font-weight: 10;
 }
+
+
+/* trainings section */
+.trainings {
+	background-color: #2988DD;
+	color: #F7F7F7;
+}
+
+.trainings .flex-list {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.training {
+	max-width: 385px;
+	width: 385px;
+	margin: 27px;
+	margin-bottom: 40px;
+}
+
+.training h3 {
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+
+.training p {
+	color: #D4D4D4;
+}
