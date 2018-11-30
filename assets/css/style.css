@@ -26,10 +26,12 @@ body {
 	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
 	font-size: 14px;
 	transition: all .5s;
+	border: none;
 }
 
 .btn:hover {
 	filter: brightness(90%);
+	cursor: pointer;
 }
 
 .btn.btn-primary {
@@ -323,4 +325,83 @@ img.responsive {
 .card.zoom-card .head img {
 	width: 70px;
 	margin-right: 20px;
+}
+
+
+/* newsletter section */
+.newsletter {
+	background: url('../img/newsletter.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+	padding-bottom: 50px;
+}
+
+.newsletter::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .6);
+	z-index: -1;
+}
+
+.newsletter .container {
+	background-color: #FFF;
+	padding: 25px;
+	display: flex;
+	align-items: center;
+}
+
+.newsletter .container .tagline h3 {
+	text-transform: capitalize;
+	font-size: 1.5rem;
+}
+
+.newsletter .container .tagline {
+	font-size: 13px;
+} 
+
+.newsletter .container form {
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.newsletter .container form .input-field {
+	margin-right: 20px;
+}
+
+.newsletter .container .envelope {
+	background-color: #2988DD;
+	color: #FFF;
+	margin: -25.02px;
+	height: 110px;
+	line-height: 110px;
+	width: 130px;
+	text-align: center;
+	font-size: 3.5rem;
+}
+
+
+/* forms input */
+input[type=email],
+input[type=text],
+input[type=password] {
+	padding: .6rem 1.8rem;
+	border-radius: 20px;
+	border: none;
+	border: 1px solid #676767;
+	min-width: 250px;
+}
+
+input[type=email]:focus,
+input[type=text]:focus,
+input[type=password]:focus {
+	box-shadow: none;
+	outline: none;
 }
